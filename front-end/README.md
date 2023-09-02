@@ -135,6 +135,63 @@ A:: An IP address represents a web location, but it's hard to remember. DNS was 
 Q:: What are packets, and why are they used in data transmission?  
 A:: Packets are small data chunks used in data transmission across the web. They are employed to prevent data loss, corruption, and to facilitate faster, efficient, and concurrent data transfer to multiple users.
 
+#### Chapter 4 - What is a URL?
+
+Q:: What does URL stand for, and what is its purpose?  
+A:: URL stands for "Uniform Resource Locator." It serves as an address for unique resources on the web, allowing browsers to retrieve and display web content.
+
+Here are some examples of URLs:
+
+```
+https://developer.mozilla.org
+https://developer.mozilla.org/en-US/docs/Learn/
+https://developer.mozilla.org/en-US/search?q=URL
+```
+
+Q:: What are the essential components of a URL?  
+A:: A URL consists of several parts, including the scheme, authority, path, parameters, and anchor. These components together specify the location and characteristics of a web resource.  
+![full URL](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL/mdn-url-all.png)  
+> **Note:** You might think of a URL like a regular postal mail address: the _scheme_ represents the postal service you want to use, the _domain name_ is the city or town, and the _port_ is like the zip code; the _path_ represents the building where your mail should be delivered; the _parameters_ represent extra information such as the number of the apartment in the building; and, finally, the _anchor_ represents the actual person to whom you've addressed your mail.
+
+Q:: Explain the concept of the "scheme" in a URL.  
+A:: The scheme in a URL indicates the protocol that the browser must use to request the resource. Common schemes are HTTPS and HTTP, but other protocols, like `mailto:`, can also be used.  
+![Scheme](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL/mdn-url-protocol@x2_update.png)
+
+Q:: What does the "authority" part of a URL include, and how is it separated from the scheme?  
+A:: The authority in a URL comprises the domain name (e.g., `www.example.com`) and the port (e.g., `80`). It is separated from the scheme by `://` and is used to specify which web server is being requested.  
+![Authority](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL/mdn-url-authority.png)
+
+Q:: Describe the "path to resource" in a URL and its significance.  
+A:: The path to resource in a URL (e.g., `/path/to/myfile.html`) specifies the location of the resource on the web server. In modern web servers, it is more of an abstraction without a direct physical representation.  
+![Path to the file](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL/mdn-url-path@x2.png)
+
+Q:: What are "parameters" in a URL, and how are they represented?  
+A:: Parameters in a URL (e.g., `?key1=value1&key2=value2`) provide extra information to the web server. They consist of key/value pairs separated by the `&` symbol.  
+![Parameters](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL/mdn-url-parameters@x2.png)
+
+Q:: Explain the concept of an "anchor" in a URL and its purpose.  
+A:: An anchor in a URL (e.g., `#SomewhereInTheDocument`) serves as a bookmark inside a resource. It instructs the browser to navigate to a specific location within the resource.  
+![Anchor](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL/mdn-url-anchor@x2.png)
+
+Q:: How can a URL be used in web browsers, apart from typing it in the address bar?  
+A:: URLs can be used in HTML to create links (`<a>`), reference related resources, display media, or load other HTML documents using elements like `<link>`, `<script>`, `<img>`, `<video>`, and `<iframe>`.
+
+Q:: Differentiate between absolute URLs and relative URLs. When should each be used?  
+A:: Absolute URLs provide the full address and are typically used in the browser's address bar. Relative URLs are used within documents and rely on the context of the current document to complete the URL.
+
+**Examples of absolute URLs**
+
+<table><tbody><tr><td>Full URL (the same as the one we used before)</td><td><pre class="notranslate">https://developer.mozilla.org/en-US/docs/Learn</pre></td></tr><tr><td>Implicit protocol</td><td><pre class="notranslate">//developer.mozilla.org/en-US/docs/Learn</pre><p>In this case, the browser will call that URL with the same protocol as the one used to load the document hosting that URL.</p></td></tr><tr><td>Implicit domain name</td><td><pre class="notranslate">/en-US/docs/Learn</pre><p>This is the most common use case for an absolute URL within an HTML document. The browser will use the same protocol and the same domain name as the one used to load the document hosting that URL. <strong>Note:</strong> <em>it isn't possible to omit the domain name without omitting the protocol as well</em>.</p></td></tr></tbody></table>
+
+**Examples of relative URLs**
+
+To better understand the following examples, let's assume that the URLs are called from within the document located at the following URL: `https://developer.mozilla.org/en-US/docs/Learn`
+
+<table><tbody><tr><td>Sub-resources</td><td><pre class="notranslate">Skills/Infrastructure/Understanding_URLs</pre><p>Because that URL does not start with <code>/</code>, the browser will attempt to find the document in a subdirectory of the one containing the current resource. So in this example, we really want to reach this URL: https://developer.mozilla.org/en-US/docs/Learn/Skills/Infrastructure/Understanding_URLs.</p></td></tr><tr><td>Going back in the directory tree</td><td><pre class="notranslate">../CSS/display</pre><p>In this case, we use the <code>../</code> writing convention — inherited from the UNIX file system world — to tell the browser we want to go up from one directory. Here we want to reach this URL: https://developer.mozilla.org/en-US/docs/Learn/../CSS/display, which can be simplified to: https://developer.mozilla.org/en-US/docs/CSS/display.</p></td></tr></tbody></table>
+
+Q:: What are the advantages of using semantic URLs?  
+A:: Semantic URLs use human-readable words with meaning, making them easier for users to remember and understand. They improve user experience, facilitate manipulation, and can aid search engines in classifying web pages.
+
 ---
 
 DECK INFO
