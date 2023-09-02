@@ -88,6 +88,42 @@ A:: Intranets are private networks limited to members of a specific organization
 Q:: How do extranets differ from intranets, and what are their common functions?  
 A:: Extranets are similar to intranets but allow sharing and collaboration with external organizations. They share common functions with intranets, such as information and file sharing, collaboration tools, and discussion boards.
 
+<!-- https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works -->
+#### Chapter 3 - How the web works?
+
+Q:: What is the purpose of understanding how the web works?  
+A:: Understanding how the web works is not immediately essential for web coding, but it becomes beneficial as it provides insight into the background processes of web browsing.
+
+Q:: What are clients and servers in the context of the internet?  
+A:: Clients are internet-connected devices (e.g., computers, phones) and web browsers used by users. Servers are computers that store web content and deliver it to clients upon request.
+
+Q:: What is the role of your internet connection in web browsing?  
+A:: Your internet connection enables data transfer between your device (client) and the remote server, similar to the street between your house (client) and the shop (server).
+
+Q:: What does TCP/IP stand for, and how does it relate to web communication?  
+A:: TCP/IP stands for Transmission Control Protocol and Internet Protocol, which are communication protocols defining how data travels across the internet, resembling transport mechanisms for data exchange.
+
+Q:: What is the function of DNS in web browsing?  
+A:: DNS (Domain Name System) acts as an address book for websites, translating human-readable web addresses into IP addresses, helping web browsers locate the correct server.
+
+Q:: Define HTTP and its role in web communication.  
+A:: HTTP (Hypertext Transfer Protocol) is an application protocol that governs communication between clients and servers, serving as the language used to request and deliver web content.
+
+Q:: What types of files make up a website, and how are they categorized?  
+A:: A website comprises code files (HTML, CSS, JavaScript) and assets (images, music, videos, documents), categorizing them based on their role in web development.
+
+Q:: What are the main steps involved when you enter a web address into your browser?  
+A:: When entering a web address, the browser finds the server's IP address, sends an HTTP request, receives a "200 OK" response, and downloads and assembles the website's files for display.
+
+Q:: Explain the order in which component files (CSS and JavaScript) are parsed by the browser during page loading.  
+A:: The browser first parses HTML, then sends requests for CSS and JavaScript files mentioned in the HTML. It subsequently builds a DOM tree, generates a CSSOM structure, and compiles/executes JavaScript, culminating in the visual display of the page.
+
+Q:: What is an IP address, and why was the Domain Name System (DNS) created?  
+A:: An IP address represents a web location, but it's hard to remember. DNS was created to match user-friendly web addresses (like "mozilla.org") to IP addresses, making browsing easier.
+
+Q:: What are packets, and why are they used in data transmission?  
+A:: Packets are small data chunks used in data transmission across the web. They are employed to prevent data loss, corruption, and to facilitate faster, efficient, and concurrent data transfer to multiple users.
+
 ---
 
 DECK INFO
