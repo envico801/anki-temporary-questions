@@ -56,25 +56,33 @@ Q:: What is the history of the Internet, and how did it evolve from a research p
 A:: The Internet began as a US-army-funded research project in the 1960s and later evolved into a public infrastructure in the 1980s with support from public universities and private companies.
 
 Q:: How does the Internet ensure that computers stay connected and communicate with each other?  
-A:: The Internet connects computers together and ensures they stay connected by facilitating communication between them, regardless of the situation.
+A:: The Internet connects computers together and ensures they stay connected by facilitating communication between them, regardless of the situation.  
+![Two computers linked together](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work/internet-schema-1.png)  
+![Ten computers all together](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work/internet-schema-2.png)
 
 Q:: What is the purpose of a router in a network, and how does it simplify the network's cable requirements?  
-A:: A router ensures that messages from one computer reach their intended destination by forwarding messages to the appropriate computer. It simplifies cable requirements by reducing the number of cables needed.
+A:: A router ensures that messages from one computer reach their intended destination by forwarding messages to the appropriate computer. It simplifies cable requirements by reducing the number of cables needed.  
+![Ten computers with a router](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work/internet-schema-3.png)
 
 Q:: How does connecting routers to routers enable the scalability of the network?  
-A:: Connecting routers to routers allows the network to scale infinitely, accommodating a large number of computers.
+A:: Connecting routers to routers allows the network to scale infinitely, accommodating a large number of computers.  
+![Two routers linked together](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work/internet-schema-4.png)  
+![Routers linked to routers](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work/internet-schema-5.png)
 
 Q:: What role does a modem play in connecting a network to the telephone infrastructure?  
-A:: A modem translates information from the network into a format compatible with the telephone infrastructure, facilitating the connection between the network and the outside world.
+A:: A modem translates information from the network into a format compatible with the telephone infrastructure, facilitating the connection between the network and the outside world.  
+![A router linked to a modem](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work/internet-schema-6.png)
 
 Q:: What is an Internet Service Provider (ISP), and how does it contribute to the functioning of the Internet?  
-A:: An ISP manages special routers that connect networks and can access other ISPs' routers. They help carry messages between networks, contributing to the functioning of the Internet.
+A:: An ISP manages special routers that connect networks and can access other ISPs' routers. They help carry messages between networks, contributing to the functioning of the Internet.  
+![Full Internet stack](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work/internet-schema-7.png)
 
 Q:: How are computers identified on the Internet, and what is an IP address?  
 A:: Computers on the Internet are identified by unique addresses known as IP addresses, consisting of a series of four numbers separated by dots, like `192.0.2.172`.
 
 Q:: Why are domain names used in conjunction with IP addresses on the Internet?  
-A:: Domain names are used alongside IP addresses to make it easier for humans to access computers over the Internet, as they are more human-readable.
+A:: Domain names are used alongside IP addresses to make it easier for humans to access computers over the Internet, as they are more human-readable.  
+![Show how a domain name can alias an IP address](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work/dns-ip.png)
 
 Q:: What is the relationship between the Internet and the Web?  
 A:: The Internet is the technical infrastructure that connects computers, while the Web is a service built on top of the Internet, allowing web browsers to access web servers.
@@ -86,7 +94,8 @@ Q:: What are intranets, and what is their primary purpose?
 A:: Intranets are private networks limited to members of a specific organization. They serve as a secure portal for sharing resources, collaborating, and communicating within the organization.
 
 Q:: How do extranets differ from intranets, and what are their common functions?  
-A:: Extranets are similar to intranets but allow sharing and collaboration with external organizations. They share common functions with intranets, such as information and file sharing, collaboration tools, and discussion boards.
+A:: Extranets are similar to intranets but allow sharing and collaboration with external organizations. They share common functions with intranets, such as information and file sharing, collaboration tools, and discussion boards.  
+![Graphical Representation of how Extranet and Intranet work](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work/internet-schema-8.png)
 
 <!-- https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works -->
 #### Chapter 3 - How the web works?
