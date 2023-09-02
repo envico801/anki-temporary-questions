@@ -104,11 +104,11 @@ Q:: What is the purpose of understanding how the web works?
 A:: Understanding how the web works is not immediately essential for web coding, but it becomes beneficial as it provides insight into the background processes of web browsing.
 
 Q:: What are clients and servers in the context of the internet?  
-A:: Clients are internet-connected devices (e.g., computers, phones) and web browsers used by users. Servers are computers that store web content and deliver it to clients upon request.
+A:: Clients are internet-connected devices (e.g., computers, phones) and web browsers used by users. Servers are computers that store web content and deliver it to clients upon request.  
 ![Two circles representing client and server. An arrow labelled request is going from client to server, and an arrow labelled responses is going from server to client](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works/simple-client-server.png)
 
 Q:: What is the role of your internet connection in web browsing?  
-A:: Your internet connection enables data transfer between your device (client) and the remote server, similar to the street between your house (client) and the shop (server).
+A:: Your internet connection enables data transfer between your device (client) and the remote server, similar to the street between your house (client) and the shop (server).  
 ![A black-and-white photo of a person crossing a road at a crosswalk](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works/road.jpg)
 
 Q:: What does TCP/IP stand for, and how does it relate to web communication?  
