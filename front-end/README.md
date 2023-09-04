@@ -135,6 +135,7 @@ A:: An IP address represents a web location, but it's hard to remember. DNS was 
 Q:: What are packets, and why are they used in data transmission?  
 A:: Packets are small data chunks used in data transmission across the web. They are employed to prevent data loss, corruption, and to facilitate faster, efficient, and concurrent data transfer to multiple users.
 
+<!-- https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL -->
 #### Chapter 4 - What is a URL?
 
 Q:: What does URL stand for, and what is its purpose?  
@@ -191,6 +192,41 @@ To better understand the following examples, let's assume that the URLs are call
 
 Q:: What are the advantages of using semantic URLs?  
 A:: Semantic URLs use human-readable words with meaning, making them easier for users to remember and understand. They improve user experience, facilitate manipulation, and can aid search engines in classifying web pages.
+
+<!-- https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines -->
+#### Chapter 5 - What is the difference between webpage, website, web server, and search engine?
+
+Q:: What is a web page, and what can it contain?  
+A:: A web page is a document that can be displayed in a web browser. It typically contains text, images, links, styles, scripts, and media elements like audio and video.
+
+Q:: What is a website, and how are web pages within a website connected?  
+A:: A website is a collection of linked web pages sharing a unique domain name. Web pages within a website are connected through explicit links, often in the form of clickable text, allowing users to navigate from one page to another.
+
+Q:: Define a web server and explain its role in hosting websites.  
+A:: A web server is a computer that hosts one or more websites. It hosts web pages and their associated files and serves them to users' browsers upon request. Multiple websites can be hosted on a single web server.
+
+Q:: What is a search engine, and how does it help users find web pages?  
+A:: A search engine is a specialized website that helps users find web pages from various websites. Users can enter search queries, and the search engine returns relevant web page results. Popular search engines include Google, Bing, and DuckDuckGo.
+
+Q:: Explain the analogy between a public library and a web server.  
+A:: A public library can be compared to a web server in that both have sections or divisions. The sections in a library are similar to a web server hosting multiple websites. Each section in the library is like a unique website, and the books within each section are akin to web pages. The search index in the library is analogous to a search engine, helping users find specific books' locations by catalog numbers.
+
+Q:: How do web pages differ from other types of documents that browsers can display?  
+A:: Web pages are documents written in HTML and can contain various resources like styles, scripts, media, and interactivity. Browsers can also display other types of documents like PDF files or images, but "web page" specifically refers to HTML documents.
+
+Q:: When you enter a domain name in a browser's address bar, what typically appears as a result?  
+A:: When you enter a domain name in a browser's address bar, the browser typically displays the main web page or homepage of the corresponding website.
+
+Q:: Why should the terms "website" and "web server" not be confused, and how can they be distinguished?  
+A:: The terms "website" and "web server" should not be confused because a single web server can host multiple websites. Referring to a web server as "not responding" indicates that multiple websites on that server are unavailable. To distinguish them, "web server" is used to describe the hosting computer, while "website" refers to the collection of web pages under a specific domain name hosted on that server.
+
+Q:: Clarify the distinction between a browser and a search engine.  
+A:: A browser is software that retrieves and displays web pages, while a search engine is a website that helps users find web pages from different websites. The browser's default startup page often displays a search engine's homepage, but they serve different purposes.
+
+Q:: What is the role of a search engine, and can you name some popular search engines?  
+A:: A search engine assists users in finding web pages from various websites based on their search queries. Some popular search engines include Google, Bing, Yahoo, Yandex, and DuckDuckGo.
+
+
 
 ---
 
