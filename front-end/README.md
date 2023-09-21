@@ -292,6 +292,24 @@ A:: HTTP's text-based and stateless nature makes it ideal for humans to read doc
 Q:: How can HTTP be used beyond serving web documents to browsers?  
 A:: HTTP can serve as a basis for REST web services for server-to-server communication and facilitate AJAX requests within websites to make them more dynamic.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/JavaScript -->
+#### Chapter 9 - JavaScript
+
+Q:: What is JavaScript, and where is it most often used?  
+A:: JavaScript, often referred to as "JS," is a programming language primarily used for dynamic client-side scripts on webpages. It is also used on the server-side with runtimes like Node.js.
+
+Q:: How does JavaScript differ from the Java programming language?  
+A:: JavaScript should not be confused with the Java programming language. Despite similar names, they have different syntax, semantics, and use cases.
+
+Q:: In which contexts is JavaScript primarily utilized within web development?  
+A:: JavaScript is primarily used in web development to manipulate webpage content through the DOM, manipulate data with AJAX and IndexedDB, draw graphics with canvas, interact with device APIs, and more.
+
+Q:: What are some key historical milestones in the development of JavaScript?  
+A:: JavaScript was introduced in Netscape Navigator 2.0 in September 1995. Internet Explorer 3.0 introduced JavaScript support as JScript in August 1996. JavaScript was standardized under ECMAScript in collaboration with Ecma International. The latest ECMAScript edition is ES2021.
+
+Q:: How has JavaScript's popularity expanded beyond the browser?  
+A:: JavaScript's popularity has expanded further through the Node.js platform, which allows it to be used as a scripting language for tasks on computers and to build HTTP and WebSockets servers. Node.js is built using Chrome's V8 JavaScript Engine.
+
 ---
 
 DECK INFO
