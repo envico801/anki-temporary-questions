@@ -250,6 +250,27 @@ A:: The first draft of HTML5 was released in 2008, and it became an official sta
 Q:: What does the term "HTML5" refer to, and what is the HTML Living Standard?  
 A:: The term "HTML5" is a buzzword referring to modern web technologies that are part of the HTML Living Standard, developed by WHATWG.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/CSS -->
+#### Chapter 7 - CSS
+
+Q:: What does CSS stand for, and what is its primary purpose?  
+A:: CSS stands for Cascading Style Sheets. Its primary purpose is to control how webpages look in the browser.
+
+Q:: How does the browser apply CSS style declarations to elements?  
+A:: The browser applies CSS style declarations to selected elements to properly display them.
+
+Q:: What does a CSS style declaration contain, and what does it determine?  
+A:: A CSS style declaration contains properties and their values, which determine how a webpage looks.
+
+Q:: What are the three core Web technologies, and how does CSS relate to them?  
+A:: The three core Web technologies are HTML, CSS, and JavaScript. CSS is responsible for styling HTML elements but can also be used with other markup languages like SVG or XML.
+
+Q:: What is a CSS rule, and what components does it consist of?  
+A:: A CSS rule is a set of properties associated with a selector. It consists of a selector and a list of properties with their corresponding values.
+
+Q:: What does "cascading" refer to in Cascading Style Sheets (CSS)?  
+A:: "Cascading" refers to the rules that govern how selectors are prioritized to change a page's appearance. It helps manage the styling of complex websites with numerous CSS rules.
+
 ---
 
 DECK INFO
