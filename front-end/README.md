@@ -226,7 +226,29 @@ A:: A browser is software that retrieves and displays web pages, while a search 
 Q:: What is the role of a search engine, and can you name some popular search engines?  
 A:: A search engine assists users in finding web pages from various websites based on their search queries. Some popular search engines include Google, Bing, Yahoo, Yandex, and DuckDuckGo.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/HTML -->
+#### Chapter 6 - HTML
 
+Q:: What does HTML stand for, and what is its purpose?  
+A:: HTML stands for HyperText Markup Language. It is a descriptive language used to specify the structure of webpages.
+
+Q:: Who defined the concept of hypertext, and when did it happen?  
+A:: Tim Berners-Lee defined the concept of hypertext in 1990 as part of his vision of the Web.
+
+Q:: How was HTML formalized, and what technology was it mainly based on?  
+A:: Tim Berners-Lee formalized HTML in 1991 through a markup mainly based on SGML (Standard Generalized Markup Language).
+
+Q:: What organization did Tim Berners-Lee found in 1994 to develop the Web?  
+A:: Tim Berners-Lee founded the W3C (World Wide Web Consortium) in 1994 to develop the Web.
+
+Q:: What led to the founding of an independent group called WHATWG in 2004, and what role did it play regarding HTML?  
+A:: The W3C's nearly abandoned HTML in favor of XHTML, which prompted the founding of an independent group called WHATWG in 2004. WHATWG continued work on HTML, leading to the development of HTML5.
+
+Q:: When was the first draft of HTML5 released, and when did it become an official standard?  
+A:: The first draft of HTML5 was released in 2008, and it became an official standard in 2014.
+
+Q:: What does the term "HTML5" refer to, and what is the HTML Living Standard?  
+A:: The term "HTML5" is a buzzword referring to modern web technologies that are part of the HTML Living Standard, developed by WHATWG.
 
 ---
 
