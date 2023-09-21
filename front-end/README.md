@@ -271,6 +271,27 @@ A:: A CSS rule is a set of properties associated with a selector. It consists of
 Q:: What does "cascading" refer to in Cascading Style Sheets (CSS)?  
 A:: "Cascading" refers to the rules that govern how selectors are prioritized to change a page's appearance. It helps manage the styling of complex websites with numerous CSS rules.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/HTTP -->
+#### Chapter 8 - HTTP
+
+Q:: What does HTTP stand for, and what is its primary purpose?  
+A:: HTTP stands for HyperText Transfer Protocol, and its primary purpose is to enable the transfer of hypermedia documents on the Web, typically between a browser and a server for human consumption.
+
+Q:: What is the current version of the HTTP specification?  
+A:: The current version of the HTTP specification is HTTP/2.
+
+Q:: What is the significance of "http" and "https" in a URI?  
+A:: "http" and "https" in a URI represent the scheme used for transporting resources. "http" indicates unencrypted connections using the HTTP protocol, while "https" indicates transport over a secure TLS channel using the HTTP protocol.
+
+Q:: Describe the key characteristics of HTTP in terms of communication.  
+A:: HTTP is textual, meaning all communication is done in plain text. It is also stateless, meaning no communication is aware of previous communications.
+
+Q:: Why is HTTP considered ideal for humans to read documents on the World Wide Web?  
+A:: HTTP's text-based and stateless nature makes it ideal for humans to read documents (websites) on the World Wide Web.
+
+Q:: How can HTTP be used beyond serving web documents to browsers?  
+A:: HTTP can serve as a basis for REST web services for server-to-server communication and facilitate AJAX requests within websites to make them more dynamic.
+
 ---
 
 DECK INFO
