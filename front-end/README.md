@@ -310,6 +310,18 @@ A:: JavaScript was introduced in Netscape Navigator 2.0 in September 1995. Inter
 Q:: How has JavaScript's popularity expanded beyond the browser?  
 A:: JavaScript's popularity has expanded further through the Node.js platform, which allows it to be used as a scripting language for tasks on computers and to build HTTP and WebSockets servers. Node.js is built using Chrome's V8 JavaScript Engine.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/JSON -->
+#### Chapter 10 - JSON
+
+Q:: What does JSON stand for, and what is it used for?  
+A:: JSON stands for "JavaScript Object Notation," and it is a data-interchange format used for representing structured data. It closely resembles a subset of JavaScript syntax and is particularly useful for JavaScript-based applications, including websites and browser extensions.
+
+Q:: What types of data can JSON represent?  
+A:: JSON can represent numbers, booleans, strings, `null`, arrays (ordered sequences of values), and objects (string-value mappings). JSON does not natively represent more complex data types like functions, regular expressions, or dates.
+
+Q:: How does JSON handle date objects?  
+A:: JSON serializes date objects to a string containing the date in ISO format by default, which means that some information about the date is preserved during serialization. However, it does not natively represent date objects as distinct data types.
+
 ---
 
 DECK INFO
