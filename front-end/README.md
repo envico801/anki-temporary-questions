@@ -322,6 +322,18 @@ A:: JSON can represent numbers, booleans, strings, `null`, arrays (ordered seque
 Q:: How does JSON handle date objects?  
 A:: JSON serializes date objects to a string containing the date in ISO format by default, which means that some information about the date is preserved during serialization. However, it does not natively represent date objects as distinct data types.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/DOM -->
+#### Chapter 11 - DOM (Document Object Model)
+
+Q:: What does DOM stand for, and what is its purpose?  
+A:: DOM stands for "Document Object Model," and its purpose is to represent and interact with any HTML or XML-based markup language document. It serves as an API for web browsers to access and manipulate the structure and content of web documents.
+
+Q:: How does the DOM represent a document?  
+A:: The DOM represents a document as a "DOM tree," where each node in the tree corresponds to a part of the document, such as an element, text string, or comment. This tree structure allows code running in a browser to access and interact with every node in the document.
+
+Q:: What are some common operations that can be performed using the DOM?  
+A:: Using the DOM, developers can perform operations such as creating new nodes, moving nodes within the document, changing node content, adding event listeners to nodes, and triggering events based on specific actions or occurrences in the document.
+
 ---
 
 DECK INFO
