@@ -334,6 +334,18 @@ A:: The DOM represents a document as a "DOM tree," where each node in the tree c
 Q:: What are some common operations that can be performed using the DOM?  
 A:: Using the DOM, developers can perform operations such as creating new nodes, moving nodes within the document, changing node content, adding event listeners to nodes, and triggering events based on specific actions or occurrences in the document.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/API -->
+#### Chapter 12 - API
+
+Q:: What does API stand for, and how is it defined?  
+A:: API stands for "Application Programming Interface." It is defined as a set of features and rules within a software program that allows interaction with the software through code, rather than through a human user interface. It serves as a contract between the application offering it and other software or hardware components.
+
+Q:: What is the role of an API in web development?  
+A:: In web development, an API provides a set of code features, including methods, properties, events, and URLs, that developers can utilize to interact with various components. This interaction can involve accessing a user's web browser, other software or hardware on the user's computer, or third-party websites and services.
+
+Q:: Can you provide examples of APIs used in web development and their purposes?  
+A:: Examples of APIs in web development include the `getUserMedia` API for capturing audio and video from a user's webcam, the Geolocation API for retrieving location information, and the Web Animations API for animating web page elements. These APIs enable developers to enhance user experiences and create interactive web applications.
+
 ---
 
 DECK INFO
