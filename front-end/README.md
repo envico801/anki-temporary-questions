@@ -346,6 +346,28 @@ A:: In web development, an API provides a set of code features, including method
 Q:: Can you provide examples of APIs used in web development and their purposes?  
 A:: Examples of APIs in web development include the `getUserMedia` API for capturing audio and video from a user's webcam, the Geolocation API for retrieving location information, and the Web Animations API for animating web page elements. These APIs enable developers to enhance user experiences and create interactive web applications.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/ARIA  -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA -->
+#### Chapter 13 - ARIA
+
+Q:: What does ARIA stand for, and what is its purpose?  
+A:: ARIA stands for "Accessible Rich Internet Applications." Its purpose is to enhance web accessibility for users of assistive technology by adding semantics and metadata to HTML, making web content and web applications more accessible to people with disabilities.
+
+Q:: How does ARIA supplement HTML in web development?  
+A:: ARIA supplements HTML by providing a set of roles and attributes that define ways to make web content and web applications, especially those developed with JavaScript, more accessible. It allows developers to create accessible JavaScript widgets, form hints, error messages, live content updates, and more.
+
+Q:: What is the first rule of using ARIA, and why is it important?  
+A:: The first rule of using ARIA is "If you can use a native HTML element or attribute with the required semantics and behavior, do so instead of re-purposing an element and adding ARIA roles, states, or properties." This rule is important because native HTML elements have built-in accessibility features, and using them is preferred over adding ARIA roles to elements, as it ensures better accessibility and compatibility.
+
+Q:: What is the potential drawback of using ARIA incorrectly?  
+A:: Using ARIA incorrectly can introduce errors and reduce web accessibility. In a survey, web pages with ARIA present had 41% more detected errors than those without ARIA. Therefore, it is crucial to use ARIA appropriately to avoid harming web accessibility.
+
+Q:: Can you provide an example of how ARIA attributes are added to HTML elements to enhance accessibility?  
+A:: Sure, here's an example: To create a progress bar widget, you can use a `<div>` element and add ARIA attributes such as `role="progressbar"`, `aria-valuemin`, `aria-valuemax`, and `aria-valuenow`. These attributes provide meaning and accessibility to the widget for assistive technologies.
+
+Q:: Why is it essential to test authored ARIA with actual assistive technology?  
+A:: Testing ARIA with actual assistive technology is crucial because support for ARIA roles can vary based on operating systems, browsers, and assistive technologies. Browser emulators and simulators are not effective for testing full support, and proxy assistive technology solutions may not guarantee full functionality. Testing with real assistive technology ensures that ARIA works as intended for users with disabilities.
+
 ---
 
 DECK INFO
