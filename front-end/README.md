@@ -392,6 +392,32 @@ A:: The purpose of WCAG guidelines is to provide recommendations for making web 
 Q:: How many guidelines are outlined in WCAG 2.0, and how are they organized?  
 A:: WCAG 2.0 consists of 12 guidelines, organized under the four principles of perceivable, operable, understandable, and robust. Each guideline has associated testable success criteria.
 
+<!-- https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Design_and_accessibility/What_is_accessibility -->
+#### Chapter 15 - What is accessibility?
+
+Q:: How does web accessibility empower people?  
+A:: Web accessibility empowers people by ensuring that everyone, regardless of disability, location, technical limitations, or other circumstances, can benefit from web content.
+
+Q:: In the context of web accessibility, what is the importance of providing subtitles for videos?  
+A:: Providing subtitles for videos is important for users with hearing impairment, as it allows them to understand the video's content.
+
+Q:: What is the purpose of an audio-description in the context of web accessibility for videos?  
+A:: An audio-description, in the context of web accessibility for videos, is an off-screen voice that describes what is happening in the video, benefiting users with visual impairment.
+
+Q:: Why should users be able to pause videos easily according to web accessibility principles?  
+A:: Users should be able to pause videos easily so they can read subtitles or process information at their own pace, which is essential for web accessibility.
+
+Q:: What are a few necessities for basic web accessibility according to the text?  
+A:: Basic web accessibility necessities include providing text alternatives for images, enabling keyboard-based interaction with graphical interfaces, specifying content language, and allowing keyboard navigation to all page widgets.
+
+-   Whenever your site needs an image to convey meaning, include text as an alternative for visually-challenged users or those with slow connections.
+-   Make sure all users can operate graphical interfaces (like unfolding menus) solely with a keyboard (e.g., with Tab and the Return key).
+-   Provide an attribute explicitly specifying your content's language, so that screen readers read your text properly.
+-   Make sure that a user can navigate to all widgets on a page solely with the keyboard, without getting trapped. (At least let them Tab in and out.)
+
+Q:: Who has been promoting web accessibility through guidelines, support material, and international resources since 1999?  
+A:: The Web Accessibility Initiative (WAI), operated by the W3C (World Wide Web Consortium), has been promoting web accessibility since 1999.
+
 ---
 
 DECK INFO
