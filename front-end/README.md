@@ -418,6 +418,30 @@ A:: Basic web accessibility necessities include providing text alternatives for 
 Q:: Who has been promoting web accessibility through guidelines, support material, and international resources since 1999?  
 A:: The Web Accessibility Initiative (WAI), operated by the W3C (World Wide Web Consortium), has been promoting web accessibility since 1999.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/SEO -->
+#### Chapter 16 - SEO
+
+Q:: What is SEO an abbreviation for, and what does it stand for?  
+A:: SEO stands for "Search Engine Optimization," and it refers to the process of making a website more visible in search engine results, thereby improving search rankings.
+
+Q:: What role do search engine crawlers play in the context of SEO?  
+A:: Search engine crawlers follow links on the web, index the content they find, and display it in search results. They are essential for SEO as they determine a website's visibility.
+
+Q:: How can following SEO rules improve a website's chances of showing up among the first search results?  
+A:: Following SEO rules closely can improve a website's chances of ranking higher in search results, increasing traffic and potentially revenue.
+
+Q:: What are the three broad classes of SEO methods?  
+A:: The three broad classes of SEO methods are Technical (using semantic HTML), Copywriting (writing content using visitor-friendly vocabulary), and Popularity (acquiring traffic through links from established sites).
+
+Q:: How can semantic HTML tags be helpful in SEO?  
+A:: Semantic HTML tags help in SEO by allowing website owners to tag content appropriately, ensuring that crawlers find and index the desired content.
+
+Q:: Why is it important to use both text and images in SEO-friendly content?  
+A:: Using both text and images in SEO-friendly content is important because it helps crawlers understand the subject, making the content more accessible and relevant.
+
+Q:: What is one effective way to drive traffic to a website, as mentioned in the text?  
+A:: One effective way to drive traffic to a website is by having established sites link to it, as this can significantly increase visibility and popularity.
+
 ---
 
 DECK INFO
