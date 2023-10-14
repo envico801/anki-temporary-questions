@@ -442,6 +442,30 @@ A:: Using both text and images in SEO-friendly content is important because it h
 Q:: What is one effective way to drive traffic to a website, as mentioned in the text?  
 A:: One effective way to drive traffic to a website is by having established sites link to it, as this can significantly increase visibility and popularity.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement -->
+#### Chapter 17 - Progressive Enhancement
+
+Q:: What is the primary goal of the design philosophy known as Progressive Enhancement?  
+A:: The primary goal of Progressive Enhancement is to provide essential content and functionality to as many users as possible while delivering the best experience to users of modern browsers that can handle advanced code.
+
+Q:: What does the term "progressive" signify in the context of Progressive Enhancement?  
+A:: In Progressive Enhancement, "progressive" means designing for simpler but still usable experiences for older browsers and devices, with the capability to enhance the experience for newer browsers and devices with advanced capabilities.
+
+Q:: How is feature detection used in Progressive Enhancement?  
+A:: Feature detection is employed to determine whether browsers can support modern functionality, helping developers decide whether to include advanced features in their design.
+
+Q:: What role do polyfills play in Progressive Enhancement?  
+A:: Polyfills are used in Progressive Enhancement to add missing features to browsers that lack them, often implemented through JavaScript.
+
+Q:: Why is accessibility particularly important in the context of Progressive Enhancement?  
+A:: Accessibility is crucial in Progressive Enhancement because acceptable alternatives should be provided to ensure that all users, including those with disabilities, can access the content and functionality.
+
+Q:: How does Progressive Enhancement benefit web developers?  
+A:: Progressive Enhancement allows web developers to focus on creating the best websites while ensuring compatibility with a wide range of user agents, even those that are unknown.
+
+Q:: What is the relationship between Progressive Enhancement and Graceful Degradation?  
+A:: While both Progressive Enhancement and Graceful Degradation aim to ensure website functionality across various conditions, they differ in approach. Progressive Enhancement starts with a basic experience and enhances it, while Graceful Degradation starts with a complete experience and degrades it if necessary.
+
 ---
 
 DECK INFO
