@@ -368,6 +368,30 @@ A:: Sure, here's an example: To create a progress bar widget, you can use a `<di
 Q:: Why is it essential to test authored ARIA with actual assistive technology?  
 A:: Testing ARIA with actual assistive technology is crucial because support for ARIA roles can vary based on operating systems, browsers, and assistive technologies. Browser emulators and simulators are not effective for testing full support, and proxy assistive technology solutions may not guarantee full functionality. Testing with real assistive technology ensures that ARIA works as intended for users with disabilities.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/WCAG -->
+#### Chapter 14 - WCAG
+
+Q:: What does WCAG stand for, and who publishes these guidelines?  
+A:: WCAG stands for "Web Content Accessibility Guidelines," and these guidelines are published by the Web Accessibility Initiative (WAI) group at the W3C (World Wide Web Consortium).
+
+Q:: When was WCAG 2.0 published as a W3C Recommendation?  
+A:: WCAG 2.0 was published as a W3C Recommendation on 11 December 2008.
+
+Q:: How many principles does WCAG 2.0 consist of, and what are they?  
+A:: WCAG 2.0 consists of four principles: perceivable, operable, understandable, and robust.
+
+Q:: What are the three levels of conformance in WCAG, and how are they described?  
+A:: WCAG uses three levels of conformance:
+- Priority 1 (A): Web developers must satisfy these requirements to ensure basic accessibility.
+- Priority 2 (AA or Double-A): Web developers should satisfy these requirements to improve accessibility, especially for groups with disabilities.
+- Priority 3 (AAA or Triple-A): Web developers may satisfy these requirements to enhance accessibility further for specific user groups.
+
+Q:: What is the purpose of WCAG guidelines?  
+A:: The purpose of WCAG guidelines is to provide recommendations for making web content accessible, primarily for people with disabilities and also for limited-resource devices like mobile phones.
+
+Q:: How many guidelines are outlined in WCAG 2.0, and how are they organized?  
+A:: WCAG 2.0 consists of 12 guidelines, organized under the four principles of perceivable, operable, understandable, and robust. Each guideline has associated testable success criteria.
+
 ---
 
 DECK INFO
