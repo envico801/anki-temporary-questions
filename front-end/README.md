@@ -484,6 +484,44 @@ A:: Graceful Degradation starts with a full-featured experience for modern brows
 Q:: How can Graceful Degradation and Progressive Enhancement complement each other?  
 A:: Both approaches are valid and can complement each other. Graceful Degradation ensures functionality in modern browsers, while Progressive Enhancement enhances the experience for those browsers. Together, they cater to a wide range of user agents and situations.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/MVC -->
+#### Chapter 19 - MVC
+
+Q:: What does MVC stand for in software design?  
+A:: MVC stands for Model-View-Controller, a software design pattern used for implementing user interfaces, data management, and controlling logic in applications.  
+Some other design patterns are based on MVC, such as MVVM (Model-View-Viewmodel), MVP (Model-View-Presenter), and MVW/MV* (Model-View-Whatever).
+
+Q:: What is the primary emphasis of the MVC pattern in software design?  
+A:: The MVC pattern emphasizes the separation of concerns, meaning it separates an application's business logic (Model), layout and display (View), and routing of commands (Controller).
+
+Q:: How can the MVC pattern contribute to better software maintenance and division of labor?  
+A:: The MVC pattern's separation of concerns allows for improved maintenance and division of labor in software development, as changes to one part (e.g., the Model) do not necessarily require changes in other parts (e.g., the View).
+
+Q:: What are the three core components of the MVC software-design pattern, and what are their roles?  
+A:: The three core components of MVC are:
+1. Model: Manages data and business logic.
+2. View: Handles layout and display.
+3. Controller: Routes commands between the Model and View.
+
+**Model View Controller example**  
+Imagine a simple shopping list app. All we want is a list of the name, quantity and price of each item we need to buy this week. Below we'll describe how we could implement some of this functionality using MVC.  
+![Diagram to show the different parts of the mvc architecture.](https://developer.mozilla.org/en-US/docs/Glossary/MVC/model-view-controller-light-blue.png)
+
+Q:: How does the Model component of MVC typically handle changes in data?  
+A:: The Model typically notifies the View when the data changes, allowing the display to update as needed. In some cases, it may also notify the Controller if different logic is required to control the updated View.
+
+Q:: In MVC, what is the role of the View component?  
+A:: The View defines how the application's data should be displayed to the user. It receives data from the Model and presents it to the user interface.
+
+Q:: What is the role of the Controller component in MVC?  
+A:: The Controller contains the logic responsible for updating the Model and/or View based on user input. It routes commands and actions between the Model and View.
+
+Q:: How is MVC commonly implemented in web development?  
+A:: In web development, MVC is often implemented with data models in databases, controlling code in HTML/JavaScript, and user interfaces created using HTML/CSS. Modern web frameworks like AngularJS and Ember.js also follow MVC architecture.
+
+Q:: What has contributed to the shift of logic from server-side to client-side in MVC architecture on the web?  
+A:: The shift of logic from server-side to client-side in web-based MVC architecture has been facilitated by client-side data stores and technologies like XMLHttpRequest, allowing partial page updates as needed.
+
 ---
 
 DECK INFO
