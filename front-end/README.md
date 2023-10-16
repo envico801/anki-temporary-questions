@@ -522,6 +522,18 @@ A:: In web development, MVC is often implemented with data models in databases, 
 Q:: What has contributed to the shift of logic from server-side to client-side in MVC architecture on the web?  
 A:: The shift of logic from server-side to client-side in web-based MVC architecture has been facilitated by client-side data stores and technologies like XMLHttpRequest, allowing partial page updates as needed.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/XML -->
+#### Chapter 20 - XML
+
+Q:: What does XML stand for?  
+A:: XML stands for eXtensible Markup Language.
+
+Q:: How does XML differ from HTML in terms of flexibility?  
+A:: XML is more flexible than HTML because it allows users to define their own tags, whereas HTML has predefined tags for specific purposes.
+
+Q:: What is the primary difference between HTML and XML in terms of their purpose?  
+A:: HTML is primarily a presentation language used for creating web pages, while XML is a data-description language used for representing structured data.
+
 ---
 
 DECK INFO
