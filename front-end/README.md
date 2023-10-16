@@ -466,6 +466,24 @@ A:: Progressive Enhancement allows web developers to focus on creating the best 
 Q:: What is the relationship between Progressive Enhancement and Graceful Degradation?  
 A:: While both Progressive Enhancement and Graceful Degradation aim to ensure website functionality across various conditions, they differ in approach. Progressive Enhancement starts with a basic experience and enhances it, while Graceful Degradation starts with a complete experience and degrades it if necessary.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/Graceful_degradation -->
+#### Chapter 18 - Graceful degradation
+
+Q:: What is the core principle of the design philosophy known as Graceful Degradation?  
+A:: The core principle of Graceful Degradation is to build a modern website/application that primarily works in the newest browsers while providing an essential but less optimal experience in older browsers.
+
+Q:: How can missing features in older browsers be addressed in Graceful Degradation?  
+A:: Missing features can be addressed using Polyfills, which can add these features through JavaScript. Additionally, acceptable alternatives for features like styling and layout should be provided, utilizing methods like the CSS cascade or HTML fallback behavior.
+
+Q:: Why is Graceful Degradation considered a valuable technique for web developers?  
+A:: Graceful Degradation allows web developers to concentrate on creating excellent websites, ensuring compatibility with various user agents, including those that are unknown or older.
+
+Q:: What distinguishes Graceful Degradation from Progressive Enhancement?  
+A:: Graceful Degradation starts with a full-featured experience for modern browsers and gracefully falls back to less optimal functionality in older ones, while Progressive Enhancement starts with a basic experience and progressively enhances it for modern browsers.
+
+Q:: How can Graceful Degradation and Progressive Enhancement complement each other?  
+A:: Both approaches are valid and can complement each other. Graceful Degradation ensures functionality in modern browsers, while Progressive Enhancement enhances the experience for those browsers. Together, they cater to a wide range of user agents and situations.
+
 ---
 
 DECK INFO
