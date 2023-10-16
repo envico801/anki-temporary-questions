@@ -534,6 +534,27 @@ A:: XML is more flexible than HTML because it allows users to define their own t
 Q:: What is the primary difference between HTML and XML in terms of their purpose?  
 A:: HTML is primarily a presentation language used for creating web pages, while XML is a data-description language used for representing structured data.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/SVG -->
+#### Chapter 21 - SVG
+
+Q:: What does SVG stand for?  
+A:: SVG stands for Scalable Vector Graphics.
+
+Q:: What is the syntax of SVG based on?  
+A:: SVG is based on an XML (eXtensible Markup Language) syntax.
+
+Q:: How can SVG graphics be styled and made interactive in web development?  
+A:: SVG graphics can be styled using CSS (Cascading Style Sheets) and made interactive using JavaScript.
+
+Q:: In an HTML document, how can SVG be directly embedded?  
+A:: SVG can be directly embedded in an HTML document using SVG tags.
+
+Q:: What advantage does SVG offer in responsive web design?  
+A:: SVG graphics can scale infinitely, making them invaluable in responsive design, as they can adapt to any screen size.
+
+Q:: Besides scalability, what other tools and features does SVG provide?  
+A:: SVG offers various tools and features, including clipping, masking, filters, and animations, which can enhance the visual and interactive aspects of graphics and interface elements.
+
 ---
 
 DECK INFO
