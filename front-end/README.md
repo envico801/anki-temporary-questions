@@ -555,6 +555,34 @@ A:: SVG graphics can scale infinitely, making them invaluable in responsive desi
 Q:: Besides scalability, what other tools and features does SVG provide?  
 A:: SVG offers various tools and features, including clipping, masking, filters, and animations, which can enhance the visual and interactive aspects of graphics and interface elements.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/SPA -->
+#### Chapter 22 - SPA
+Sure, here are flashcards based on the provided text about Single-page applications (SPAs) using the 20 rules for formulating knowledge by Piotr Wozniak:
+
+Q:: What does SPA stand for?  
+A:: SPA stands for Single-page application.
+
+Q:: How does an SPA differ from traditional web applications?  
+A:: An SPA loads only a single web document and updates its content via JavaScript APIs, while traditional web apps load separate pages from the server.
+
+Q:: What technology is commonly used in SPAs to update content?  
+A:: SPAs commonly use JavaScript APIs like `XMLHttpRequest` and Fetch to update content dynamically.
+
+Q:: What is one advantage of SPAs in terms of user experience?  
+A:: SPAs offer a more dynamic user experience by updating content without loading entire new pages from the server.
+
+Q:: Name a potential disadvantage of SPAs.  
+A:: One potential disadvantage of SPAs is their impact on SEO (Search Engine Optimization).
+
+Q:: Why might SPAs require more effort for state management?  
+A:: SPAs may require more effort for state management because they typically handle page state within the application, unlike traditional multi-page apps where the server manages state.
+
+Q:: What kind of web application behavior do SPAs enable?  
+A:: SPAs enable web applications to behave more like desktop applications, with content updates happening in real-time without full page reloads.
+
+Q:: Why might SPAs require meaningful performance monitoring?  
+A:: SPAs may require meaningful performance monitoring because the dynamic content updates can introduce performance bottlenecks that need to be identified and optimized.
+
 ---
 
 DECK INFO
