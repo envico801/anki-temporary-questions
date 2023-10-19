@@ -583,6 +583,21 @@ A:: SPAs enable web applications to behave more like desktop applications, with 
 Q:: Why might SPAs require meaningful performance monitoring?  
 A:: SPAs may require meaningful performance monitoring because the dynamic content updates can introduce performance bottlenecks that need to be identified and optimized.
 
+<!-- https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Introduction -->
+#### Chapter 23 - What is cross-browser testing?
+
+Q:: What is cross-browser testing?
+A:: Cross-browser testing is the practice of ensuring that a website works across various browsers and devices.
+
+Q:: What should web developers consider in cross-browser testing?
+A:: Web developers should consider different browsers, devices, and the needs of people with disabilities.
+
+Q:: Why should web developers consider slightly older browsers in cross-browser testing?
+A:: They should consider slightly older browsers because they may not support all the latest JavaScript (JS) and CSS features.
+
+Q:: What are some examples of different devices that web developers should test for?
+A:: Web developers should test for desktops, laptops, tablets, smartphones, smart TVs, and various hardware capabilities.
+
 ---
 
 DECK INFO
