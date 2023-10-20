@@ -661,6 +661,30 @@ A:: CDNs can handle high traffic more effectively by distributing content delive
 Q:: When might an organization choose to use its own servers instead of a CDN?  
 A:: Organizations may choose to use their own servers when they require full control over content delivery, have specific security requirements, or are dealing with highly sensitive data.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting -->
+#### Chapter 27 - Cross-site scripting (XSS)
+
+Q:: What does XSS stand for?  
+A:: XSS stands for Cross-site scripting.
+
+Q:: What is the primary goal of an XSS attack?  
+A:: The primary goal of an XSS attack is to inject malicious client-side code into a website, which can then be executed by victims' browsers.
+
+Q:: How can XSS attacks allow attackers to bypass access controls and impersonate users?  
+A:: XSS attacks allow attackers to execute malicious code in victims' browsers, potentially giving them access to sensitive information, like cookies and session tokens, and allowing them to impersonate users.
+
+Q:: Why can't the user's browser detect malicious scripts injected via XSS?  
+A:: The user's browser cannot detect malicious scripts injected via XSS because it treats them as if they are trustworthy, granting access to sensitive site-specific information or allowing the script to modify the HTML content.
+
+Q:: How can web developers prevent XSS attacks?  
+A:: Web developers can prevent XSS attacks by implementing proper validation, input sanitization, and output encoding techniques in their applications.
+
+Q:: What is the difference between reflected XSS and stored XSS attacks?  
+A:: Reflected XSS attacks involve immediate execution of the injected script, while stored XSS attacks persist on the target website, affecting future visitors as well.
+
+Q:: What organizations and resources provide guidelines for web security best practices?  
+A:: Organizations like OWASP and resources like security blogs and forums offer guidelines and best practices for web security to help developers protect their applications from XSS and other threats.
+
 ---
 
 DECK INFO
