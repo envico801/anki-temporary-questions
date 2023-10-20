@@ -598,6 +598,18 @@ A:: They should consider slightly older browsers because they may not support al
 Q:: What are some examples of different devices that web developers should test for?
 A:: Web developers should test for desktops, laptops, tablets, smartphones, smart TVs, and various hardware capabilities.
 
+<!-- https://www.browserstack.com/guide/cross-platform-testing -->
+#### Chapter 24 - Cross-Platform Testing
+
+Q:: What is Cross Platform Compatibility?  
+A:: Cross Platform Compatibility means that the mobile application should function uniformly irrespective of the OS platform and version, such as Android and iOS..
+
+Q:: How does iOS fragmentation differ from Android fragmentation?  
+A:: iOS fragmentation is minimal, with Apple encouraging users to upgrade to the latest version, while Android fragmentation poses challenges for app developers in delivering a consistent user experience.
+
+Q:: Why is Cross Platform Compatibility more crucial as mobile platforms evolve?  
+A:: Cross Platform Compatibility becomes more crucial as mobile platforms evolve and diversify, ensuring that apps remain accessible and functional for a wider user base.
+
 ---
 
 DECK INFO
