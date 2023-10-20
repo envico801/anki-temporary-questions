@@ -610,6 +610,30 @@ A:: iOS fragmentation is minimal, with Apple encouraging users to upgrade to the
 Q:: Why is Cross Platform Compatibility more crucial as mobile platforms evolve?  
 A:: Cross Platform Compatibility becomes more crucial as mobile platforms evolve and diversify, ensuring that apps remain accessible and functional for a wider user base.
 
+<!-- https://www.guru99.com/unit-testing-guide.html -->
+#### Chapter 25 - Unit testing
+
+Q:: What is Unit Testing?  
+A:: Unit Testing is a software testing method where individual units or components of software are tested to validate their correctness.
+
+Q:: When is Unit Testing typically performed in the software development process?  
+A:: Unit Testing is typically done during the development (coding phase) of an application by developers.
+
+Q:: What is the main purpose of Unit Testing?  
+A:: The main purpose of Unit Testing is to ensure that each unit of the software code performs as expected.
+
+Q:: What types of code entities can be tested using Unit Testing?  
+A:: Unit Testing can be applied to individual functions, methods, procedures, modules, or objects within the software.
+
+Q:: Is it common for QA engineers to perform Unit Testing?  
+A:: In practical scenarios, QA engineers may also perform Unit Testing, especially when developers face time constraints or reluctance to conduct tests.
+
+Q:: Why is Unit Testing important in the software development lifecycle?  
+A:: Unit Testing is important because it helps identify and fix issues at an early stage, reducing the likelihood of defects propagating to later stages of development.
+
+Q:: How does Unit Testing benefit code maintainability?  
+A:: Unit Testing makes it easier to maintain code because it provides a safety net for making changes or refactoring code without introducing new defects.
+
 ---
 
 DECK INFO
