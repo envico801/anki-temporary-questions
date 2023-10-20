@@ -634,6 +634,33 @@ A:: Unit Testing is important because it helps identify and fix issues at an ear
 Q:: How does Unit Testing benefit code maintainability?  
 A:: Unit Testing makes it easier to maintain code because it provides a safety net for making changes or refactoring code without introducing new defects.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/CDN -->
+#### Chapter 26 - CDN
+
+Q:: What does CDN stand for?  
+A:: CDN stands for Content Delivery Network.
+
+Q:: What is the primary purpose of a CDN?  
+A:: The primary purpose of a CDN is to distribute content from multiple servers to reduce latency and improve the speed of content delivery.
+
+Q:: How does a CDN work?  
+A:: A CDN works by storing duplicate copies of data on servers located in various geographical locations. It serves data requests from the server closest to the end-users, enhancing performance.
+
+Q:: What kind of content is often delivered using CDNs?  
+A:: CDNs are commonly used for delivering static assets such as stylesheets and JavaScript files, including libraries like Bootstrap and jQuery.
+
+Q:: What advantage does using a CDN for static assets offer?  
+A:: Using a CDN for static assets reduces the request burden on an organization's servers, improving overall server performance.
+
+Q:: What is one benefit of CDNs already being configured with cache settings?  
+A:: CDNs come pre-configured with proper cache settings, which saves organizations from having to configure cache settings for static assets on their own servers.
+
+Q:: How does a CDN help mitigate the impact of high traffic?  
+A:: CDNs can handle high traffic more effectively by distributing content delivery across multiple servers, preventing overload on a single server and ensuring fast service.
+
+Q:: When might an organization choose to use its own servers instead of a CDN?  
+A:: Organizations may choose to use their own servers when they require full control over content delivery, have specific security requirements, or are dealing with highly sensitive data.
+
 ---
 
 DECK INFO
