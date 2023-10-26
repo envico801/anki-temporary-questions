@@ -685,6 +685,33 @@ A:: Reflected XSS attacks involve immediate execution of the injected script, wh
 Q:: What organizations and resources provide guidelines for web security best practices?  
 A:: Organizations like OWASP and resources like security blogs and forums offer guidelines and best practices for web security to help developers protect their applications from XSS and other threats.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/CRUD -->
+#### Chapter 28 - CRUD
+
+Q:: What does CRUD stand for?  
+A:: CRUD stands for Create, Read, Update, Delete.
+
+Q:: Where are CRUD operations typically performed?  
+A:: CRUD operations are typically performed in a database or datastore.
+
+Q:: Can CRUD also apply to higher-level functions of an application? If so, provide an example.  
+A:: Yes, CRUD can also apply to higher-level functions of an application. For example, it can apply to "soft deletes," where data is marked as deleted via a status instead of actually being removed.
+
+Q:: What does the "Create" operation in CRUD involve?  
+A:: The "Create" operation in CRUD involves adding new data or records to a database or datastore.
+
+Q:: What does the "Read" operation in CRUD involve?  
+A:: The "Read" operation in CRUD involves retrieving and viewing existing data or records from a database or datastore.
+
+Q:: What does the "Update" operation in CRUD involve?  
+A:: The "Update" operation in CRUD involves modifying and editing existing data or records in a database or datastore.
+
+Q:: What does the "Delete" operation in CRUD involve?  
+A:: The "Delete" operation in CRUD involves removing or deleting existing data or records from a database or datastore.
+
+Q:: How is the CRUD acronym helpful in software development?  
+A:: The CRUD acronym serves as a useful reference for software developers when designing, implementing, and documenting data-related operations in applications, ensuring that all essential operations are considered.
+
 ---
 
 DECK INFO
