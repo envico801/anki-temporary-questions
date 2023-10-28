@@ -712,6 +712,102 @@ A:: The "Delete" operation in CRUD involves removing or deleting existing data o
 Q:: How is the CRUD acronym helpful in software development?  
 A:: The CRUD acronym serves as a useful reference for software developers when designing, implementing, and documenting data-related operations in applications, ensuring that all essential operations are considered.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/OOP -->
+#### Chapter 29 - OOP
+
+Q:: What does OOP stand for?  
+A:: OOP stands for Object-Oriented Programming.
+
+Q:: How does OOP differ from other programming approaches?  
+A:: OOP differs from other programming approaches by focusing on organizing code around objects, which represent real-world entities and their interactions.
+
+Q:: What is the primary goal of encapsulation in OOP?  
+A:: The primary goal of encapsulation in OOP is to hide the internal state of an object and expose a controlled interface for interacting with it.
+
+Q:: What are some key principles of OOP other than encapsulation?  
+A:: Some key principles of OOP include inheritance, polymorphism, and abstraction.
+
+Q:: Can you provide an example of a real-world entity that can be represented as an object in OOP? e.g. A Car  
+A:: A real-world entity like a "car" can be represented as an object in OOP. The object can encapsulate attributes (e.g., color, model) and behaviors (e.g., start engine, accelerate).
+
+Q:: How can polymorphism be described in the context of OOP?  
+A:: In OOP, polymorphism describes the concept that you can access objects of different types through the same interface. Each type can provide its own independent implementation of this interface.
+
+For example, integers, floats, and doubles are implicitly polymorphic: regardless of their different types, they can all be added, subtracted, multiplied, and so on.
+
+```C#
+public class Shape
+{
+    // A few example members
+    public int X { get; private set; }
+    public int Y { get; private set; }
+    public int Height { get; set; }
+    public int Width { get; set; }
+
+    // Virtual method
+    public virtual void Draw()
+    {
+        Console.WriteLine("Performing base class drawing tasks");
+    }
+}
+
+public class Circle : Shape
+{
+    public override void Draw()
+    {
+        // Code to draw a circle...
+        Console.WriteLine("Drawing a circle");
+        base.Draw();
+    }
+}
+public class Rectangle : Shape
+{
+    public override void Draw()
+    {
+        // Code to draw a rectangle...
+        Console.WriteLine("Drawing a rectangle");
+        base.Draw();
+    }
+}
+public class Triangle : Shape
+{
+    public override void Draw()
+    {
+        // Code to draw a triangle...
+        Console.WriteLine("Drawing a triangle");
+        base.Draw();
+    }
+}
+```
+
+```C#
+// Polymorphism at work #1: a Rectangle, Triangle and Circle
+// can all be used wherever a Shape is expected. No cast is
+// required because an implicit conversion exists from a derived
+// class to its base class.
+var shapes = new List<Shape>
+{
+    new Rectangle(),
+    new Triangle(),
+    new Circle()
+};
+
+// Polymorphism at work #2: the virtual method Draw is
+// invoked on each of the derived classes, not the base class.
+foreach (var shape in shapes)
+{
+    shape.Draw();
+}
+/* Output:
+    Drawing a rectangle
+    Performing base class drawing tasks
+    Drawing a triangle
+    Performing base class drawing tasks
+    Drawing a circle
+    Performing base class drawing tasks
+*/
+```
+
 ---
 
 DECK INFO
