@@ -808,6 +808,18 @@ foreach (var shape in shapes)
 */
 ```
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/CORS -->
+#### Chapter 30 - CORS
+
+Q:: What does CORS stand for?  
+A:: CORS stands for Cross-Origin Resource Sharing.
+
+Q:: What does the same-origin security policy forbid?  
+A:: The same-origin security policy forbids cross-origin access to resources.
+
+Q:: How does CORS enable web servers to handle cross-origin requests?  
+A:: CORS gives web servers the ability to opt into allowing cross-origin access to their resources by transmitting specific HTTP headers.
+
 ---
 
 DECK INFO
