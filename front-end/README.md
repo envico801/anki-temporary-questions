@@ -820,6 +820,18 @@ A:: The same-origin security policy forbids cross-origin access to resources.
 Q:: How does CORS enable web servers to handle cross-origin requests?  
 A:: CORS gives web servers the ability to opt into allowing cross-origin access to their resources by transmitting specific HTTP headers.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/Mobile_First -->
+#### Chapter 31 - Mobile First
+
+Q:: What is "Mobile First" in web development and design?  
+A:: "Mobile First" is a web development and design approach that prioritizes designing and developing for mobile screen sizes before focusing on desktop screen sizes.
+
+Q:: How does "Mobile First" relate to "progressive enhancement"?  
+A:: "Mobile First" is a form of progressive enhancement where the initial focus is on mobile screen sizes, and additional features and enhancements are progressively added for larger screens.
+
+Q:: What are some benefits of the mobile-first approach?  
+A:: Benefits of the mobile-first approach include improved accessibility, faster page load times, and better support for a variety of devices, leading to increased user satisfaction.
+
 ---
 
 DECK INFO
