@@ -847,6 +847,21 @@ A:: Polyfills are used when different browsers implement the same features in di
 Q:: Can you provide an historical example of a polyfill?  
 A:: The first version of jQuery served as an early example of a polyfill. It compiled browser-specific workarounds to provide JavaScript developers with a common API that worked consistently across all browsers, addressing the discrepancies in browser implementations, especially during the time of IE6 and Netscape.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/Progressive_web_apps -->
+#### Chapter 33 - Progressive web apps
+
+Q:: What are Progressive Web Applications (PWAs)?  
+A:: Progressive Web Applications (PWAs) are applications built using web platform technologies that provide a user experience similar to platform-specific apps.
+
+Q:: What are some advantages of Progressive Web Apps (PWAs)?  
+A:: PWAs offer advantages like discoverability through search engines, linkability via URLs, and compatibility with various devices and form factors.
+
+Q:: What is the role of Service Workers in Progressive Web Apps?  
+A:: Service Workers are a modern API used in PWAs to enable features like working offline, background synchronization, and improved performance.
+
+Q:: What does it mean for Progressive Web Apps to be installable?  
+A:: Installability means that users can add PWAs to their device's home screen, making them function like native apps and providing a convenient way to access them.
+
 ---
 
 DECK INFO
