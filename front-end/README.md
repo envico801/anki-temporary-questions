@@ -832,6 +832,21 @@ A:: "Mobile First" is a form of progressive enhancement where the initial focus 
 Q:: What are some benefits of the mobile-first approach?  
 A:: Benefits of the mobile-first approach include improved accessibility, faster page load times, and better support for a variety of devices, leading to increased user satisfaction.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/Polyfill -->
+#### Chapter 32 - Polyfill
+
+Q:: What is a "Polyfill" in web development?  
+A:: A "Polyfill" is a piece of code, typically written in JavaScript, that is used to provide modern functionality on older web browsers that do not natively support that functionality.
+
+Q:: Can you provide an example of how a polyfill might be used?  
+A:: A polyfill could be used to mimic the functionality of CSS features like `text-shadow` in older browsers like IE7 by using JavaScript to replicate the effect.
+
+Q:: In what situations are polyfills used to address issues with different browser implementations?  
+A:: Polyfills are used when different browsers implement the same features in different ways. They provide a standards-compliant way to access features by using non-standard browser-specific features.
+
+Q:: Can you provide an historical example of a polyfill?  
+A:: The first version of jQuery served as an early example of a polyfill. It compiled browser-specific workarounds to provide JavaScript developers with a common API that worked consistently across all browsers, addressing the discrepancies in browser implementations, especially during the time of IE6 and Netscape.
+
 ---
 
 DECK INFO
