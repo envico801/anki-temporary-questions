@@ -862,6 +862,46 @@ A:: Service Workers are a modern API used in PWAs to enable features like workin
 Q:: What does it mean for Progressive Web Apps to be installable?  
 A:: Installability means that users can add PWAs to their device's home screen, making them function like native apps and providing a convenient way to access them.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/SQL_Injection -->
+#### Chapter 34 - SQL Injection
+
+Q:: What is SQL Injection?  
+A:: SQL Injection is a security vulnerability that exploits web applications failing to validate user input. It involves passing malicious SQL commands through the application to execute against a backend database.
+
+Q:: What are the consequences of SQL Injection?  
+A:: SQL Injection can result in unauthorized access to a database and retrieval of sensitive information. It is responsible for many data breaches.  
+[![Pie chart of most common vulnerabilities: SQL Injection is responsible for 50% of vulnerabilities, Cross Site Scripting is responsible for 42% of vulnerabilities, Source Code Disclosure is responsible for 7% of vulnerabilities.](https://developer.mozilla.org/en-US/docs/Glossary/SQL_Injection/sql_inj_xss.gif)](https://cdn.acunetix.com/wp_content/uploads/2010/09/sql_inj_xss.gif)
+
+Q:: How does SQL Injection work?  
+A:: SQL Injection works by manipulating user inputs to create malicious SQL queries. Attackers use techniques like injecting a "Magical String" to bypass authentication and compromise the database.
+
+Q:: What is a "Magical String" in SQL Injection?  
+A:: A "Magical String" is a specially crafted input that attackers use in SQL Injection. For example, using the username "admin" and password "'anything'or'1'='1'" to create a malicious query that results in unauthorized access.  
+After clicking on the login button, the SQL query will work as follows:
+
+```SQL
+"SELECT Count(*) FROM Users WHERE Username=' admin ' AND Password=' anything 'or'1'='1 ' ";
+```
+
+Just take a closer look at the above query's password section.
+
+```
+Password=' anything 'or'1'='1 '
+```
+
+The password is not 'anything', hence password=anything results in FALSE, but '1'='1' is a TRUE statement and hence returns a TRUE value. Finally, due to the OR operator, the value (FALSE OR TRUE) is TRUE, so authentication bypasses successfully. Just due to a simple string (Magical String) the entire database is compromised.
+
+Q:: How can SQL Injection be prevented?  
+A:: SQL Injection can be prevented by sanitizing and validating user inputs. Techniques like stripping slashes and escaping characters can help make user inputs safe for database queries.
+
+```SQL
+$id = $_GET['id']
+
+(1) $id = Stripslashes($id)
+
+(2) $id = mysql_real_escape_String($id)
+```
+
 ---
 
 DECK INFO
