@@ -902,6 +902,24 @@ $id = $_GET['id']
 (2) $id = mysql_real_escape_String($id)
 ```
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/User_agent -->
+#### Chapter 35 - User agent
+
+Q:: What is a User Agent?  
+A:: A User Agent is a computer program that represents a person in a web context, such as a web browser.
+
+Q:: What are some examples of User Agents?  
+A:: Examples of User Agents include web browsers, web scraping bots, download managers, and various applications that access the web.
+
+Q:: What is included in the User-Agent HTTP header sent by web browsers?  
+A:: The User-Agent HTTP header sent by web browsers typically includes information about the browser, its version number, and the host operating system.
+
+Q:: What is User Agent spoofing?  
+A:: User Agent spoofing refers to the practice of sending a fake User-Agent string to the server, pretending to be a different client or browser than the actual one.
+
+Q:: Can you provide an example of a typical User Agent string?  
+A:: A typical User Agent string looks like this: `"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0"`.
+
 ---
 
 DECK INFO
