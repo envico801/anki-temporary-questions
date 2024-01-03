@@ -920,6 +920,15 @@ A:: User Agent spoofing refers to the practice of sending a fake User-Agent stri
 Q:: Can you provide an example of a typical User Agent string?  
 A:: A typical User Agent string looks like this: `"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0"`.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/Viewport -->
+#### Chapter 36 - Viewport
+
+Q:: What does "Viewport" represent in computer graphics?  
+A:: In computer graphics, a viewport represents a polygonal area that is currently being viewed.
+
+Q:: Is content outside the viewport visible onscreen?  
+A:: No, content outside the viewport is not visible onscreen until it is scrolled into view.
+
 ---
 
 DECK INFO
