@@ -929,6 +929,15 @@ A:: In computer graphics, a viewport represents a polygonal area that is current
 Q:: Is content outside the viewport visible onscreen?  
 A:: No, content outside the viewport is not visible onscreen until it is scrolled into view.
 
+<!-- https://developer.mozilla.org/en-US/docs/Glossary/WebSockets -->
+#### Chapter 37 - WebSockets
+
+Q:: What is WebSocket?  
+A:: WebSocket is a protocol that allows for a persistent TCP connection between a server and client, enabling them to exchange data at any time.
+
+Q:: Which applications can use WebSocket?  
+A:: WebSocket can be used by any client or server application, but it is primarily used by web browsers and web servers.
+
 ---
 
 DECK INFO
