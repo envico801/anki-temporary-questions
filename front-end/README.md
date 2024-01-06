@@ -953,6 +953,18 @@ A:: The first web browser, created by Tim Berners-Lee, was released to the gener
 Q:: What makes up a website, and where are websites stored?  
 A:: Websites are composed of multiple web resources with a common theme or domain name. They are stored in computers running web servers that respond to requests made over the Internet.
 
+<!-- https://frontendmasters.com/guides/learning-roadmap/front-end-development-overview/ -->
+#### Chapter 39 - The Web Platform
+
+Q:: What is the Web platform?  
+A:: The Web platform is a collection of technologies developed as open standards by organizations like the World Wide Web Consortium (W3C) and others. It serves as a platform for innovation and consolidation in web development.
+
+Q:: Name some of the technologies included in the Web platform.  
+A:: Technologies in the Web platform include HTML, CSS, SVG, MathML, ECMAScript, WebGL, Web Storage, Web Components, WebAssembly, Web Workers, WebSocket, and many others.
+
+Q:: What is the purpose of the Web platform in web development?  
+A:: The Web platform provides a cohesive platform for developers to build interoperable content. It includes languages and APIs originally created for publishing web pages.
+
 ---
 
 DECK INFO
