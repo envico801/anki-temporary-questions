@@ -938,6 +938,21 @@ A:: WebSocket is a protocol that allows for a persistent TCP connection between 
 Q:: Which applications can use WebSocket?  
 A:: WebSocket can be used by any client or server application, but it is primarily used by web browsers and web servers.
 
+<!-- https://frontendmasters.com/guides/learning-roadmap/front-end-development-overview/ -->
+#### Chapter 38 - The World Wide Web
+
+Q:: What is the World Wide Web (WWW)?  
+A:: The World Wide Web (WWW), commonly known as the Web, is an information space where documents and web resources are identified by Uniform Resource Locators (URLs) and are accessible over the Internet.
+
+Q:: Who invented the World Wide Web, and in which year?  
+A:: English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while working at CERN, Switzerland.
+
+Q:: When was the first web browser released to the general public?  
+A:: The first web browser, created by Tim Berners-Lee, was released to the general public in August 1991.
+
+Q:: What makes up a website, and where are websites stored?  
+A:: Websites are composed of multiple web resources with a common theme or domain name. They are stored in computers running web servers that respond to requests made over the Internet.
+
 ---
 
 DECK INFO
