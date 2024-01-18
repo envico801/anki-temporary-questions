@@ -965,6 +965,15 @@ A:: Technologies in the Web platform include HTML, CSS, SVG, MathML, ECMAScript,
 Q:: What is the purpose of the Web platform in web development?  
 A:: The Web platform provides a cohesive platform for developers to build interoperable content. It includes languages and APIs originally created for publishing web pages.
 
+<!-- https://frontendmasters.com/guides/learning-roadmap/the-web-platform/ -->
+#### Chapter 40 - Web to Native
+
+Q:: What is a Web to Native application?  
+A:: A Web to Native application is a native application built using web technologies, where web APIs are translated to native APIs, enabling the use of native UI elements and performance improvements.
+
+Q:: Can you name examples of frameworks for building Web to Native applications?  
+A:: Examples of frameworks for building Web to Native applications include NativeScript and React Native.
+
 ---
 
 DECK INFO
