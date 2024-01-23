@@ -974,6 +974,21 @@ A:: A Web to Native application is a native application built using web technolo
 Q:: Can you name examples of frameworks for building Web to Native applications?  
 A:: Examples of frameworks for building Web to Native applications include NativeScript and React Native.
 
+<!-- https://frontendmasters.com/guides/learning-roadmap/the-web-platform/ -->
+#### Chapter 41 - Developing for Browsers
+
+Q:: What challenges did front-end developers face in the past regarding browsers?  
+A:: In the past, front-end developers spent significant time ensuring their code worked in various browsers, which was a major challenge.
+
+Q:: How has browser development become easier in recent times?  
+A:: Browser development has become easier due to abstractions like React, Webpack, Post-CSS, and Babel, combined with modern browsers.
+
+Q:: What is the new challenge for front-end developers today in terms of browsers?  
+A:: The new challenge is not which browser users use but on which device they run the browser.
+
+Q:: What are "evergreen browsers," and how do they update?  
+A:: Evergreen browsers are modern browsers that are supposed to update themselves silently without user prompts, although many users still manually update when prompted.
+
 ---
 
 DECK INFO
