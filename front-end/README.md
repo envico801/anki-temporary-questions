@@ -989,6 +989,102 @@ A:: The new challenge is not which browser users use but on which device they ru
 Q:: What are "evergreen browsers," and how do they update?  
 A:: Evergreen browsers are modern browsers that are supposed to update themselves silently without user prompts, although many users still manually update when prompted.
 
+<!-- https://medium.com/@realabhijeet4u/9-tips-to-get-bare-minimum-of-web-accessibility-739899a9437c -->
+#### Chapter 42 - Web Accessibility part 2
+
+Q:: What does it mean to make a site accessible?  
+A:: Making an accessible site means making it for 'almost' everyone.
+
+Q:: How can interactive elements be made keyboard accessible?  
+A:: All interactive elements such as text boxes and buttons should be accessible by keyboard using the Tab and Shift+Tab keys.
+
+Q:: What is tab order in web accessibility?  
+A:: Tab order is the order in which elements receive focus when navigating through a web page using the keyboard. It should follow the natural reading sequence (e.g., top to bottom and right to left for RTL languages).
+
+Q:: How can tab order be influenced by the DOM order?  
+A:: Tab order is mainly determined by the DOM order, where elements higher in the DOM tree have priority in the tab order.
+
+Q:: How can CSS affect the tab order?  
+A:: CSS can visually alter the order in which elements appear on the page, but the tab order should still follow the DOM order for accessibility. Changing the visual order with CSS will not affect the tab order unless explicit changes are made.
+
+Q:: What is the importance of logical tab order?  
+A:: A logical tab order ensures that the focus moves through interactive elements in a predictable and intuitive sequence, improving the user experience.
+
+Q:: How can the tab order be improved for right-aligned elements?  
+A:: When dealing with right-aligned links or elements, you should ensure that they appear in the DOM order before the left-aligned elements to maintain a logical tab order.
+
+Q:: Why is a predictable focus order important?  
+A:: A predictable focus order helps users navigate the website efficiently using keyboard interactions, reducing cognitive load and enhancing accessibility.
+
+Q:: How can developers make non-interactive elements accessible?  
+A:: Non-interactive elements like divs, spans, and images should generally be skipped in the tab order as users don't usually need to interact with them. This ensures a smoother keyboard navigation experience.
+
+Q:: What is the role of the browser in keyboard accessibility?  
+A:: Most interactive elements are keyboard accessible by default, meaning the browser automatically handles their focusability. Developers need to ensure that custom interactive elements are also keyboard accessible.
+
+Q:: What is the purpose of `tabindex` attribute?
+Give an example of making a non-interactive element focusable.
+A:: The `tabindex` attribute is used to make elements focusable.
+Example: `<div id="myDiv" tabindex="0">Dummy text</div>`
+
+Q:: How can you remove an interactive element from the tab order?
+When is it useful to use `tabindex="-1"`?
+A:: Setting `tabindex="-1"` removes an interactive element from the tab order, making it inaccessible via keyboard navigation.
+`tabindex="-1"` is useful when you want to make certain links/buttons inaccessible, such as those behind overlays or transitioned out of display.
+
+Q:: Are positive `tabindex` values recommended?
+A:: No, positive `tabindex` values are not recommended.
+Positive `tabindex` values should be avoided because they can cause confusion when multiple elements have positive `tabindex` values.
+
+Q:: Why is it recommended to use native HTML elements?
+Give an example of using native elements instead of custom ones.
+A:: Using native HTML elements is recommended because they have built-in accessibility features.
+For example, use the `<button>` tag instead of creating a button using `<div>` or `<span>`.
+
+Q:: What should you do if you need to create a custom element?
+A:: If you need to create a custom element, refer to the WAI-ARIA Best Practices Guide.
+Guidelines for creating custom elements can be found at [https://www.w3.org/TR/wai-aria-practices-1.1/].
+
+Q:: Do you need to read the entire WAI-ARIA Best Practices Guide?
+A:: No, you don't have to read the whole document.
+You can find specific guidelines for the element you are creating within the WAI-ARIA Best Practices Guide.
+
+Q:: What does the WAI-ARIA Best Practices Guide provide for custom elements?
+A:: The WAI-ARIA Best Practices Guide provides keyboard interaction instructions for custom elements.
+It also includes links to examples and demos for assistance.
+
+Q:: What assistive tools do users with visual impairment rely on?
+A:: Users with visual impairment rely on assistive tools like screen readers.
+Using alt attributes for images is important because screen readers read the alt text for users who have difficulty seeing the image.
+
+Q:: How can proper heading tags improve accessibility for screen reader users?
+A:: Proper heading tags (`<h1>`, `<h2>`, `<h3>`, etc.) allow screen reader users to navigate within the page's content using headings.
+
+Q:: Why is it important for screen readers to correctly identify interactive elements?
+A:: Screen readers need to correctly identify interactive elements so they can prompt users to interact with them.
+
+Q:: What is the purpose of the accessibility tree?
+A:: The accessibility tree provides a semantical representation of HTML code and contains information about accessibility properties of elements.
+
+Q:: How can you ensure an element has a name in the accessibility tree?
+A:: Use the `aria-label` attribute to ensure an element has a name in the accessibility tree, especially for elements without visible text content.
+
+Q:: What are some examples of aria attributes that can be used to compute accessibility properties?
+A:: Examples of aria attributes include `role`, `aria-labelledby`, `aria-expanded`, and `aria-checked`.
+Relevant aria attributes for different types of controls can be found in the [WAI-ARIA Best Practices Guide](https://www.w3.org/TR/wai-aria-practices-1.1/).
+
+Q:: What is aXe and how can it help with accessibility?
+A:: aXe is an accessibility tool that can identify accessibility gaps in a webpage.
+
+Q:: What is the accessibility inspector in Chrome Dev Tools?
+A:: The accessibility inspector is an experimental feature in Chrome Dev Tools that helps identify computed accessibility properties of elements.
+
+Q:: What does the inert.js library help achieve?
+A:: The inert.js library helps make a part of a webpage tab inaccessible, which is useful when you want to make certain links/buttons inaccessible behind overlays or when they are transitioned out of display (e.g., hamburger menus).
+
+Q:: What is the purpose of the focus-ring library?
+A:: The focus-ring library helps ensure the visibility of focus rings around controls when they receive focus.
+
 ---
 
 DECK INFO
