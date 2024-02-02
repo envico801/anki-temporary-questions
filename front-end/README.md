@@ -1085,6 +1085,42 @@ A:: The inert.js library helps make a part of a webpage tab inaccessible, which 
 Q:: What is the purpose of the focus-ring library?
 A:: The focus-ring library helps ensure the visibility of focus rings around controls when they receive focus.
 
+<!-- https://getbem.com/introduction/ -->
+#### Chapter 43 - BEM
+
+Q:: What does BEM stand for?  
+A:: BEM stands for Block, Element, Modifier.
+
+Q:: What is the primary purpose of organizing code using BEM?  
+A:: The primary purpose is to improve code efficiency, which affects development time, code volume, and browser loading.
+
+Q:: Name some other CSS methodologies used for code organization.  
+A:: Other methodologies include OOCSS (Object-Oriented CSS), SMACSS (Scalable and Modular Architecture for CSS), SUITCSS, and Atomic CSS.
+
+Q:: Why might someone choose BEM over other methodologies?  
+A:: BEM is chosen because it offers a good balance between structure (like OOCSS) and simplicity (unlike some other methodologies like SMACSS), with recognizable terminology.
+
+Q:: Define a "Block" in BEM.  
+A:: A Block is a standalone entity that has meaning on its own, such as `header`, `container`, or `menu`.  
+![GitHub with captions](https://getbem.com/assets/github_captions.3a78c10d_ZfCSDb.jpg)
+
+Q:: Define an "Element" in BEM.  
+A:: An Element is a part of a Block that has no standalone meaning and is semantically tied to its Block, like `menu item` or `list item`.  
+![GitHub with captions](https://getbem.com/assets/github_captions.3a78c10d_ZfCSDb.jpg)
+
+Q:: What is a "Modifier" in BEM?  
+A:: A Modifier is a flag applied to a Block or Element to change its appearance or behavior, such as `disabled`, `highlighted`, or `color yellow`.  
+![GitHub with captions](https://getbem.com/assets/github_captions.3a78c10d_ZfCSDb.jpg)
+
+Q:: What is one benefit of using BEM for CSS?  
+A:: One benefit is **modularity**; Block styles are never dependent on other elements, preventing cascading issues.
+
+Q:: How does BEM promote **reusability** in CSS?  
+A:: BEM allows for the composition and reuse of independent Blocks, reducing the amount of CSS code that needs to be maintained.
+
+Q:: What does BEM methodology provide in terms of CSS **structure**?  
+A:: BEM provides a solid and easily understandable structure for CSS code, improving maintainability.
+
 ---
 
 DECK INFO
